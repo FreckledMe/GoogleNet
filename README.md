@@ -17,3 +17,7 @@ The architectural details of auxiliary classifiers as follows:
     A softmax classifier with 1000 classes output similar to the main softmax classifier.
 
 <img src="Inceptionv1_architecture.png">
+
+    pip install -r requirements.txt
+
+Run [scratch.ipynb ](https://github.com/FreckledMe/GoogleNet/blob/main/scratch.ipynb)
