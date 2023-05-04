@@ -7,3 +7,13 @@ Model Architecture:
 Below is Layer by Layer architectural details of GoogLeNet.
 
 <img src="arch.png">
+
+The architectural details of auxiliary classifiers as follows:
+
+    An average pooling layer of filter size 5×5 and stride 3.
+    A 1×1 convolution with 128 filters for dimension reduction and ReLU activation.
+    A fully connected layer with 1025 outputs and ReLU activation
+    Dropout Regularization with dropout ratio = 0.7
+    A softmax classifier with 1000 classes output similar to the main softmax classifier.
+
+<img src="Inceptionv1_architecture.png">
